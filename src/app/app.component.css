@@ -1,0 +1,85 @@
+.wholesize{
+     width: 1160px;
+     border: solid red 1px;
+     position: absolute;
+     left: 120px;
+     display: flex;
+     flex-direction: row;
+     
+}
+.leftSideMenu{
+ width: 240px;
+ border: dotted green 1px;
+ justify-content: flex-start;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+
+.contentArea{
+    width: 1040px;
+    border: orangered dotted 2px;
+    height: 800px;
+}
+.nickNameArea{
+    width: 240px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+
+}
+.avatarArea{
+    width: 240px;
+    height: 210px;
+    border: yellow dotted 1px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.avatarArea img{
+    width: 60px;
+    height: 60px;
+    border-radius: 25%;
+}
+.nickNameFont{
+    font-size: larger;
+    text-align: center;
+    color:white;
+}
+
+.mainMenu{
+    width: 240px;
+    height: 220px;
+    /* 为啥不生效？ */
+    /* border: tomato snow 1px;
+    ul{
+        margin-top: 10px;
+    } */
+
+}
+ul{
+    margin-top: 10px;
+    padding-left: 0px;
+
+}
+
+ul li:hover{
+text-decoration:none;
+background-color: steelblue;
+    
+}
+
+ul li{
+    text-decoration:none;
+    background-color: wheat;
+    margin-top: 3px;
+    /* list-style-image:url('sqpurple.gif'); */
+    list-style:none; 
+    display: flex;
+    justify-content: center;
+}

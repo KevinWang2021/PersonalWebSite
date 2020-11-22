@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pariote</title>
+</head>
+
+<body>
+  <div class="wholesize">
+    <div class="leftSideMenu">
+
+      <div class="nickNameArea">
+        <p class="nickNameFont"> Pariote</p>
+      </div>
+
+      <div class="mainMenu">
+        <ul>
+          <li><a routerLink="/home" routerLinkActive="active">首页</a></li>
+          <li><a>标签</a></li>
+          <li><a>分类</a></li>
+          <li><a>归档</a></li>
+          <li><a>刷题</a></li>
+          <li>
+            <a routerLink="/motto" routerLinkActive="active">座右铭</a></li>
+          <li><a>教育</a></li>
+          <li><a>生活</a></li>
+          <li><a>关于</a></li>
+        </ul>
+      </div>
+
+      <div class="avatarArea">
+        <img src="../assets/images/avator.jpg" />
+        <p>Pariote</p>
+        <p>相信自己，不设上限</p>
+      </div>
+    </div>
+
+
+    <div class="contentArea">
+      <router-outlet></router-outlet>
+    </div>
+
+  </div>
+</body>
+
+</html>

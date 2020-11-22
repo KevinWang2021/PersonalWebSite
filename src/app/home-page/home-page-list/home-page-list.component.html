@@ -1,0 +1,13 @@
+<div>
+    <p>文章列表</p>
+    <ul>
+        <li *ngFor="let articleItem of articleList">
+            <a routerLink="{{'/article-list/article/'+articleItem?.id}}" routerLinkActive="active">
+                {{articleItem?.name}}
+            </a>
+        </li>
+    </ul>
+    <a routerLink="/home" routerLinkActive="active">回到首页</a>
+</div>
+
+<!-- <router-outlet></router-outlet> -->
